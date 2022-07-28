@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #52b788;
+}
+
+#title {
+    height: 300px;
+}
+
+#workspace {
+    background: #d8f3dc;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+    color: #d8f3dc;
+    font-size: 40px;
+    line-height: 33px;
+}
+
+#input-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-el{
+    width: 120px;
+    height: 73px;
+    margin-top: 25px;
+    color: #d8f3dc;
+    background: #52b788;
+    border: 2px solid #b7e4c7;
+    border-radius: 5px;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#convert-btn{
+    height: 45px;
+    width: 120px;
+    color: #1b4332;
+    background: #d8f3dc;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 25px;
+}
+
+
+.container {
+    background: #95d5b2;
+    color: #1b4332;
+    width: 500px;
+    height: 110px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.units {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #2d6a4f;
+}
+
+#con-len {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #1b4332;
+}
+
+#con-vol {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #1b4332;
+}
+
+#con-mass {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #1b4332;
+}
